@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: italic;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(pic.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    text-decoration: none;
+    color: #af9755;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6 ease;
+
+}
+
+ul li a:hover {
+    background-color: #9c764a;
+    color: 000;
+}
+
+ul li .active {
+    background-color: #948e5c;
+    color: #000000;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: #ffffff;
+    font-size: 70px;
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.main{
+    color: #fff;
+    margin-left: 2ch;
+    padding: 2ch;
+    font-size: 2.5ch;
+    
+    
+}
+.btn:hover {
+    background-color: #8ea4ca;
+    color: 000;
+}
+.social{
+    width: 4ch;
+    margin: 1ch; 
+    margin-left:2ch;
+    display: flex;
+}
+.inside1{
+    font-size: 3ch
+}
+#new1{
+    background-color:bisque;
+}
+#skill1{
+    
+    background-color: rgb(252, 179, 130);
+    font-size: 3ch;
+    text-align: center;
+}
+#interest{
+    margin: 1ch;
+    padding: 1CH;
+}
+#eduction{
+    margin-top: 50px;
+    background-color: rgb(240, 214, 131);
+    text-align: center;
+}
+#nav{
+    position: fixed;
+    top: 1ch;
+    /* background-color: #021f38; */
+}
+#achievement{
+    background-color: rgb(197, 176, 107);
+    text-align: center;
+    font-size: 3ch;
+}
+#footer1{
+    width: 100%;
+    height: 3px;
+    background-color: blue;
+    text-align: center;
+    color: rgb(15, 54, 41);
+}
+#education{
+        font-size: 35px;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(119, 104, 53);
+
+}
+table th,td{
+    border: 2px solid black;
+    text-align: center;
+}
+table{
+    align-content: center;
+    justify-content: center;
+
+}
+#contact{
+    display: inline;
+   
+
+}
+
+/*      Profile       */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    text-align: center;
+    font-size: 40px;
+
+    height: 20%;
+
+}
+
+.image {
+    cursor: pointer;
+}
+
+/* .main {
+    display: flex;
+} */
+
+/*  Left Side*/
+.Left_side {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    background-color: rgb(196, 132, 84);
+    color: rgb(3, 2, 0);
+
+
+}
+
+.Highlighter {
+    border-style: solid;
+    border-color: rgb(196, 132, 84);
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Right side*/
+.Right_side {
+    padding: 20px;
+    text-align: center;
+}
+
+#h4 {
+    font-size: 20px;
+    background-color: rgb(196, 132, 84);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#paragraph {
+    font-size: 20px;
+
+}
+
+.social {
+    width: 4ch;
+    margin: 1ch;
+    margin-left: 2ch;
+}
+
+.main a {
+    text-decoration: none;
+
+}
+
+.main a:hover {
+    color: blueviolet;
+}
+
+#nav {
+    display: flex;
+    padding: 0%;
+
+}
+
+.main {
+    margin-left: 1ch;
+    padding: 2.5ch;
+    font-size: 2.5ch;
+}
